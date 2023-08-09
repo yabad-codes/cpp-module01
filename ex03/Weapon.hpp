@@ -6,7 +6,7 @@
 /*   By: yabad <yabad@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/08 16:56:57 by yabad             #+#    #+#             */
-/*   Updated: 2023/08/09 15:12:43 by yabad            ###   ########.fr       */
+/*   Updated: 2023/08/09 18:37:34 by yabad            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,6 @@ class Weapon {
 		Weapon(std::string);
 		~Weapon();
 		void	setType(std::string);
-		const std::string&	getType(void) const;
+		const std::string&	getType(void);
 };
 #endif

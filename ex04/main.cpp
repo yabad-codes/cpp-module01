@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yabad <yabad@student.1337.ma>              +#+  +:+       +#+        */
+/*   By: yabad <yabad@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/08 18:00:26 by yabad             #+#    #+#             */
-/*   Updated: 2023/07/08 23:14:11 by yabad            ###   ########.fr       */
+/*   Updated: 2023/08/09 19:18:41 by yabad            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,15 +43,8 @@ void	find_and_replace(std::string filename, std::string s1, std::string s2) {
 	outputFile.close();
 }
 
-int	main(void) {
-	std::string	filename, s1, s2;
-
-	std::cout << "Enter the filename : ";
-	std::cin >> filename;
-	std::cout << "Enter the 1st string : ";
-	std::cin >> s1;
-	std::cout << "Enter the 2nd string : ";
-	std::cin >> s2;
-	find_and_replace(filename, s1, s2);
+int	main(int ac, char **av) {
+	if (ac == 4)
+		find_and_replace(av[1], av[2], av[3]);
 	return (0);	
 }

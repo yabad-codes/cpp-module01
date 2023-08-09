@@ -6,7 +6,7 @@
 /*   By: yabad <yabad@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/09 16:23:57 by yabad             #+#    #+#             */
-/*   Updated: 2023/08/09 17:10:07 by yabad            ###   ########.fr       */
+/*   Updated: 2023/08/09 19:24:53 by yabad            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,6 @@ int	main(void)
 {
 	Harl	harl;
 	
-	harl.filter("DEBUG");
+	harl.filter("WARNING");
 	return (0);	
 }

@@ -6,7 +6,7 @@
 /*   By: yabad <yabad@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/09 16:16:04 by yabad             #+#    #+#             */
-/*   Updated: 2023/08/09 17:10:34 by yabad            ###   ########.fr       */
+/*   Updated: 2023/08/09 19:23:43 by yabad            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,7 +76,8 @@ void	Harl::filter(std::string level)
 			std::cout << "[ ERROR ]" << std::endl;
 			complain("ERROR");
 			std::cout << std::endl;
-		default:
 			break;
+		default:
+			std::cout << "[ Probably complaining about insignificant problems ]\n";
 	}
 }

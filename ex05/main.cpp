@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yabad <yabad@student.1337.ma>              +#+  +:+       +#+        */
+/*   By: yabad <yabad@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/09 13:36:32 by yabad             #+#    #+#             */
-/*   Updated: 2023/07/09 13:37:27 by yabad            ###   ########.fr       */
+/*   Updated: 2023/08/09 19:21:29 by yabad            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,6 @@
 int	main(void) {
 	Harl	harl;
 
-	harl.complain("DEBUG");
+	harl.complain("WARNING");
 	return (0);
 }
